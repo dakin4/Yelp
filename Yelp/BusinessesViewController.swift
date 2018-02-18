@@ -56,8 +56,11 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     
 
  
+func searchBarResultsListButtonClicked(_ searchBar: UISearchBar) // called when search results button pres
     
-    
+    {
+    print("hkjh")
+    }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if businesses != nil {
